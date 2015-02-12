@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: dKekkVUoszGZKmnWNlbmQAVwIjzbXEqSMdFmXiEA5krh7qaINHgs34hfJURTy2nfBcBSisKEJUSVtMxHs0DjFZEO5QhscTXmuGxKGpSY/l1Kuw5Wq7vCfjdzfvv/XXOdvw41rBfiR6xeV0wiWeGf9am5DX4etSpeA+ZyOFJlSz8=
-    app: travis-test-app
-  	run:
+  app: order-of-the-stars111
+  run:
     - "rake db:migrate"
     - restart
